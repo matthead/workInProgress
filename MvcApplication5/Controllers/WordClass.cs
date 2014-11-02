@@ -9,7 +9,6 @@ namespace MvcApplication5.Controllers
     {
         public static string GetWord()
         {
-           /* count = 0;
             string url = "http://randomword.setgetgo.com/get.php";
             var request = System.Net.WebRequest.Create(url);
             request.ContentType = "application/json; charset=utf-8";
@@ -18,7 +17,7 @@ namespace MvcApplication5.Controllers
             {
                 word = sr.ReadToEnd().Trim();
             }
-            return word;*/
+            return word;
             word = "matt";
             return word;
             
